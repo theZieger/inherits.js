@@ -1,0 +1,29 @@
+{
+  "name": "inherits.js",
+  "version": "0.1.0",
+  "description": "Easily inherit prototypes.",
+  "main": "inherits.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "nyc": {
+    "exclude": [
+      "spec/**/*.js"
+    ],
+    "reporter": "clover",
+    "report-dir": "coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theZieger/inherits.js.git"
+  },
+  "author": "thezieger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theZieger/inherits.js/issues"
+  },
+  "homepage": "https://github.com/theZieger/inherits.js#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
