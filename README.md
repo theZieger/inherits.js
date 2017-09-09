@@ -1,4 +1,5 @@
-# inherits.js 0.1.0
+# inherits.js 0.1.0 [![Build Status](https://scrutinizer-ci.com/g/theZieger/inherits.js/badges/build.png?b=master)](https://scrutinizer-ci.com/g/theZieger/inherits.js/build-status/master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/theZieger/inherits.js/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/theZieger/inherits.js/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/theZieger/inherits.js/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/theZieger/inherits.js/?branch=master)
+
 > Easily inherit prototypes.
 
 ## Getting started

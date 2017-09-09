@@ -1,5 +1,5 @@
 /*!
- * toObject | v0.1.0 | Easily convert an array to an object.
+ * toObject | v0.1.0 | Easily inherit prototypes.
  * Copyright (c) 2017 Eric Zieger (MIT license)
  * https://github.com/theZieger/toObject/blob/master/LICENSE
  */
