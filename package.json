@@ -1,18 +1,28 @@
 {
   "name": "inherits.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Easily inherit prototypes.",
-  "main": "inherits.js",
+  "main": "dist/inherits.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine",
+    "build": "npm test && node_modules/umd/bin/cli.js inherits src/inherits.js dist/inherits.js -c"
   },
   "nyc": {
     "exclude": [
-      "spec/**/*.js"
+      "spec/**/*.js",
+      "dist/**/*.js"
     ],
     "reporter": "clover",
     "report-dir": "coverage"
   },
+  "keywords": [
+    "inherit",
+    "prototypes",
+    "inheritance",
+    "umd",
+    "browser",
+    "utility"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theZieger/inherits.js.git"
@@ -24,6 +34,7 @@
   },
   "homepage": "https://github.com/theZieger/inherits.js#readme",
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "jasmine": "^2.6.0",
+    "umd": "^3.0.1"
   }
 }

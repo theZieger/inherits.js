@@ -1,4 +1,4 @@
-var inherits = require('../inherits.js');
+var inherits = require('../src/inherits.js');
 
 describe('inherits', function() {
     describe('failing tests', function() {
